@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trade4you</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/img/t4u.png" alt="logo">
+            <h1>Trade4you</h1>
+        </div>
+        <nav class="topnav" id="myTopnav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#layanan">Layanan</a></li>
+                <li><a href="#testimoni">Testimoni</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+                <li class="icon">
+                    <a href="javascript:void(0);" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="jumbotron">
+            <h1>Trading mudah bersama Trade4you</h1>
+            <p>Website untuk memulai belajar trading dari nol. Sangat cocok untuk anda yang baru mengenal dunia trading.
+                Anda akan diajari cara membaca analisa grafik dan cara melakukan jual beli di pasar online.</p>
+        </div>
+        <div id="content">
+            <article id="tentang" class="card">
+                <h2>Tentang Kami</h2>
+                <p>Didirikan pada awal tahun 2022, Trade4you telah berkembang menjadi salah satu media online yang
+                    memberikan pelayanan konsultasi serta edukasi terkait dunia trading. Dengan mentor yang telah
+                    berpengalaman selama bertahun-tahun, kami telah banyak melayani berbagai customer dari berbagai
+                    wilayah di indonesia.
+                </p>
+
+                <p>Salah satu bukti kredibilitas dan komitmen Trade4you adalah dengan adanya portofolio dan testimoni
+                    dari para customer kami serta adanya live trading bersama, sehingga dengan komitmen yang tinggi,
+                    kami berkeyakinan bahwa kami akan memberikan layanan terbaik demi customer kami.
+                </p>
+            </article>
+
+            <article id="layanan" class="card">
+                <h2>Layanan Kami</h2>
+                <section class="detail">
+                    <img src="assets/img/handshake.png" alt="layanan">
+                    <div class="detail-info">
+                        <h4>Live Mentoring</h4>
+                        <p>Belajar langsung dengan mentor dan diajarkan dari dasar hingga mahir.</p>
+                    </div>
+                </section>
+                <section class="detail">
+                    <img src="assets/img/analytics.png" alt="layanan">
+                    <div class="detail-info">
+                        <h4>Signal Trading</h4>
+                        <p>Layanan informasi signal trading harian/mingguan/bulanan.</p>
+                    </div>
+                </section>
+                <section class="detail">
+                    <img src="assets/img/money.png" alt="layanan">
+                    <div class="detail-info">
+                        <h4>Copy Trade</h4>
+                        <p>Salin transaksi trading kami dan anda tidak perlu pusing analisa mandiri.</p>
+                    </div>
+                </section>
+            </article>
+
+            <article id="testimoni" class="card">
+                <h2>Testimoni Customer</h2>
+                <p>Apa kata para customer kami?</p>
+                <section class="detail">
+                    <img class="img-testi" src="assets/img/alexander.jpg" alt="testimoni">
+                    <div class="detail-info">
+                        <h4>Alexander</h4>
+                        <q>Materinya sangat bagus, dan penjelasannya juga sangat mudah dimengerti. Terima kasih.</q>
+                    </div>
+                </section>
+                <section class="detail">
+                    <img class="img-testi" src="assets/img/michael.jpg" alt="testimoni">
+                    <div class="detail-info">
+                        <h4>Michelle</h4>
+                        <q>Kelas yang sangat menarik, banyak ilmu dan pelajaran baru yang saya dapat khususnya
+                            penggunaan analisa trading. Terima kasih Trade4you
+                            atas kelas nya ini. Sukses terus dan terus berkarya kedepannya.</q>
+                    </div>
+                </section>
+            </article>
+            <div id="kontak" class="card">
+                <h2>Kontak Kami</h2>
+                <form class="form" action="#">
+                    <div class="form-control">
+                        <label for="name">Nama</label>
+                        <input type="text" name="name" placeholder="Masukan nama">
+                    </div>
+                    <div class="form-control">
+                        <label for="topic">Judul Pesan</label>
+                        <input type="text" name="topic" placeholder="Masukan judul pesan">
+                    </div>
+                    <div class="form-control">
+                        <label for="message">Detail Pesan</label>
+                        <textarea name="message" id="message" cols="30" rows="5"></textarea>
+                    </div>
+                    <div class="form-control">
+                        <button type="button">Kirim</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <aside>
+            <article class="profile card">
+                <h2>Profile Saya</h2>
+                <figure>
+                    <img src="assets/img/profile.jpg">
+                </figure>
+                <section>
+                    <h3>Informasi:</h3>
+                    <table>
+                        <tr>
+                            <th>Nama</th>
+                            <td>Yusuf Pratomo</td>
+                        </tr>
+                        <tr>
+                            <th>Alamat</th>
+                            <td>Pati, Jawa Tengah</td>
+                        </tr>
+                        <tr>
+                            <th>Telepon</th>
+                            <td>+6285740199116</td>
+                        </tr>
+                        <tr>
+                            <th>Skill</th>
+                            <td>Programmer</td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2022 dibuat oleh Yusuf Pratomo</p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
